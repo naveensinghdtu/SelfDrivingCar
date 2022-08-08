@@ -3,6 +3,7 @@
 The aim of the project is segmentation of real traffic images using Unet and CANet. The images and their corresponding json files for training the network was 
 available in the following format:-
 
+<pre>
 |--- data
 |-----| ---- images
 |-----| ------|----- Scene 1
@@ -24,6 +25,7 @@ available in the following format:-
 |-----| ------|--------| ----- json 2 (labeled objects in image 1)
 |-----| ------|--------| ----- ...
 |-----| ------|----- .....
+</pre>
 
 And each json file will have 3 attributes
     (i) imgHeight: Height of the image.
