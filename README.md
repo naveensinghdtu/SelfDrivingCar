@@ -2,6 +2,7 @@
 
 The aim of the project is segmentation of real traffic images using Unet and CANet. The images and their corresponding json files for training the network was 
 available in the following format:-
+The data for the repo can be found here : https://www.kaggle.com/datasets/lazypack/tempdata
 
 <pre>
 |--- data
