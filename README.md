@@ -27,13 +27,15 @@ available in the following format:-
 |-----| ------|----- .....
 </pre>
 
+<pre>
 And each json file will have 3 attributes
     (i) imgHeight: Height of the image.
     (ii) imgWidth: Width of the image.
     (iii) objects: List of objects, each object having multiple attributes:-
         (a) label: the type of the object
         (b) polygon: a list of two element lists, representing the coordinates of the polygon
-        
+</pre> 
+ 
  The true masks of images were computed using the attributes of the json files corresponding to those images. The network was then trained on real images and their
  computed masks. The loss used for training the network was Focal Loss/Dice Loss.
  
